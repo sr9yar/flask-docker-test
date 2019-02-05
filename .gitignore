@@ -1,0 +1,6 @@
+
+__pycache__
+
+/project/venv/*
+!/project/venv/.gitkeep
+
