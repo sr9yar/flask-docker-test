@@ -50,7 +50,7 @@ ENV APP_CONFIG_FILE=development.py
 
 
 # EXPOSE 5000
-CMD ["flask", "run"]
+CMD ["flask", "run", "--host=0.0.0.0"]
 
 # CMD ["python", "run.py"]
 # CMD ["tail", "-f", "/dev/null"]
